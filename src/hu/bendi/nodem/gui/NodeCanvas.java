@@ -81,6 +81,7 @@ public class NodeCanvas extends JPanel {
 		node.draw(node.getPos(), g,new Vec(150,150));
 		g.setColor(Color.GREEN);
 		g.drawRect(node.getPos().x, node.getPos().y, node.getScale().x, node.getScale().y);
+		g.fillRect(node.getPos().x, node.getPos().y, node.getScale().x, node.getScale().y);
 	}
 	
 
